@@ -1,6 +1,9 @@
 # Caesar_Cipher-
-  ...
+ 
+### can be schematically represented by the set of following functions:
+
 '''
+
 def CaesarCipherChar(c, k):
     a1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
     a2 = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz'
@@ -19,10 +22,15 @@ def CaesarCipher(s,K):
     for c in s:
         word += CaesarCipherChar(c,k)
     return word
+
 '''
 
+### Indication 
+
 >S = input('Enter word: ')
+>
 >K = input('Enter number (1<= k <=26): ')
+>
 >print(CaesarCipher(S,K))
 
  
