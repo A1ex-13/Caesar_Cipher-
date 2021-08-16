@@ -2,9 +2,10 @@
  
 ### can be schematically represented by the set of following functions:
 
-'''
+’’’
 
 def CaesarCipherChar(c, k):
+
     a1 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ'
     a2 = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz'
     if c.isalpha()==True:
@@ -17,13 +18,14 @@ def CaesarCipherChar(c, k):
     return c 
 
 def CaesarCipher(s,K):
+
     k = int(K)
     word = ''
     for c in s:
         word += CaesarCipherChar(c,k)
     return word
 
-'''
+’’’
 
 ### Indication 
 
