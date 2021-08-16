@@ -25,11 +25,11 @@
     return word
 ```
 
-### Indication:
+**Indication:**
 ```
->S = input('Enter word: ')
->K = input('Enter number (1<= k <=26): ')
->print(CaesarCipher(S,K))
+S = input('Enter word: ')
+K = input('Enter number (1<= k <=26): ')
+print(CaesarCipher(S,K))
 
 ```
  
